@@ -1,0 +1,195 @@
+body {
+    font-size: 16px;
+    color: #222222;
+    z-index: 2;
+}
+
+@font-face {
+    font-family: 'D-DIN';
+    src: url('../D-DIN-PRO-500-Medium.otf');
+}
+
+.container {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+
+
+.c-banner {
+    position: relative;
+}
+
+.c-banner .img-box {
+    overflow: hidden;
+}
+
+.c-banner img {
+    display: block;
+    width: 100%;
+}
+
+.cell-box {
+    font-size: 0;
+}
+
+.c-banner .txt-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 0 5vw;
+    z-index: 2;
+}
+
+.cell-box .cell {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cell-box:before {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.c-banner .en {
+    font-size: 68px;
+    line-height: 1;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'COVES BOLD';
+}
+
+.c-banner .cn {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 1600px) {
+    .c-banner .en {
+        font-size: 64px;
+    }
+
+    .c-banner .cn, .about-s2 .left-box .item em, .index-s2 .bot-block .item em, .index-s1 .item .para {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .c-banner .en {
+        font-size: 48px;
+    }
+
+    .c-banner .cn, .about-s2 .left-box .item em, .index-s2 .bot-block .item em, .index-s1 .item .para {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .c-banner .en {
+        font-size: 30px;
+    }
+
+    .c-banner .cn {
+        font-size: 26px;
+    }
+}
+
+.c-container {
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 88px;
+    text-align: center;
+}
+
+.c-container .title {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.c-container .content {
+    font-size: 16px; 
+    color: #3D3D3D;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+.more-info .icon {
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+}
+
+.more-info .more-info-title {
+    font-size: 36px;
+    margin: 20px auto 10px;
+    font-family: Alibaba PuHuiTi 3.0;
+    color: #222222;
+}
+
+.more-info .more-info-container {
+    font-size: 24px;
+    font-family: Alibaba PuHuiTi 3.0;
+    color: #222222;
+}
+
+@media screen and (max-width: 1600px) {
+    .c-container .title {
+        font-size: 48px;
+    }
+
+    .c-container .content {
+        font-size: 16px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .c-container {
+        margin-top: 40px;
+    }
+
+    .c-container .title {
+        margin-bottom: 20px;
+        font-size: 32px; 
+    }
+
+    .c-container .content {
+        font-size: 15px;
+        color: #3D3D3D;
+    }
+
+    .more-info .icon {
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin: 0 10px 0 0;
+    }
+
+    .more-info .more-info-title {
+        font-size: 16px;
+        margin: 7px 0 0 0;
+    }
+
+    .more-info .more-info-container {
+        font-size: 14px;
+        color: #222222;
+    }
+
+    .more-info .col-md-3 {
+        clear: both;
+        margin-bottom: 15px;
+        overflow: hidden;
+    }
+}

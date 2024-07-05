@@ -1,0 +1,391 @@
+body {
+    font-size: 16px;
+    color: #222222;
+    z-index: 2;
+}
+
+@font-face {
+    font-family: 'D-DIN';
+    src: url('../D-DIN-PRO-500-Medium.otf');
+}
+
+.container {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+
+.c-banner {
+    position: relative;
+}
+
+.c-banner .img-box {
+    overflow: hidden;
+}
+
+.c-banner img {
+    display: block;
+    width: 100%;
+}
+
+.cell-box {
+    font-size: 0;
+}
+
+.c-banner .txt-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 0 5vw;
+    z-index: 2;
+}
+
+.cell-box .cell {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cell-box:before {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.c-banner .en {
+    font-size: 68px;
+    line-height: 1;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'COVES BOLD';
+}
+
+.c-banner .cn {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+/* 内容 */
+
+.col-md-12, .col-md-3, .col-md-4 {
+    padding: 0;
+}
+
+.more-info {
+    max-width: none;
+    margin-bottom: 88px;
+    padding: 88px 0;
+    background: linear-gradient(0deg, rgba(10, 131, 65, 0.7), rgba(10, 131, 65, 0.7)), url(../images/services/green-bg.png);
+}
+
+.more-info .more-info-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.more-info .more-info-item {
+    width: 25%;
+    color: #fff;
+    float: left;
+    padding: 20px;
+}
+
+.container .more-info .title {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.more-info-item .more-info-icon {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    margin: 0 auto;
+    line-height: 88px;
+    font-size: 36px;
+    font-family: 'D-DIN';
+    font-weight: 400;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.more-info-item .more-info-title {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.more-info-item .more-info-container {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .c-banner .en {
+        font-size: 64px;
+    }
+
+    .c-banner .cn, .about-s2 .left-box .item em, .index-s2 .bot-block .item em, .index-s1 .item .para {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .c-banner .en {
+        font-size: 48px;
+    }
+
+    .c-banner .cn, .about-s2 .left-box .item em, .index-s2 .bot-block .item em, .index-s1 .item .para {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .c-banner .en {
+        font-size: 30px;
+    }
+
+    .c-banner .cn {
+        font-size: 26px;
+    }
+}
+
+.c-container {
+    max-width: none;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 88px;
+    text-align: center;
+}
+
+.c-container .title {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.c-container .title2 {
+    font-size: 32px;
+    color: #089C4B;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.c-container .content {
+    font-size: 18px; 
+    color: #555555;
+    margin-bottom: 88px;
+    padding: 0 20px;
+}
+
+
+.more-info-2 .mi2-container {
+    background-size: 100% 100%;
+    transition: all 0.6s;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.more-info-2 .col-md-4:nth-child(1) .mi2-container {
+    background-image: url(../images/services/bg1.png);
+}
+
+.more-info-2 .col-md-4:nth-child(2) .mi2-container {
+    background-image: url(../images/services/bg2.png);
+}
+
+.more-info-2 .col-md-4:nth-child(3) .mi2-container {
+    background-image: url(../images/services/bg3.png);
+}
+
+.more-info-2 .col-md-4:nth-child(4) .mi2-container {
+    background-image: url(../images/services/bg4.png);
+}
+
+.more-info-2 .col-md-4:nth-child(5) .mi2-container {
+    background-image: url(../images/services/bg5.png);
+}
+
+.more-info-2 .col-md-4:nth-child(6) .mi2-container {
+    background-image: url(../images/services/bg6.png);
+}
+
+.more-info-2 .mi2-container:hover {
+    background-size: 140% 140%;
+    background-position: center;
+
+}
+
+.more-info-2 .mi2-container {
+    padding: 286px 40px 0;
+    text-align: left;
+    color: #fff;
+    min-height: 488px;
+}
+
+
+.more-info-2 .mi2-number {
+    font-size: 88px;
+    line-height: 88px;
+    color: #089C4B;
+    font-family: 'D-DIN';
+}
+
+.more-info-2 .mi2-title {
+    font-family: 'D-DIN';
+    color: #089C4B;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.more-info-2 .mi2-content {
+    font-size: 20px;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.more-info-3 {
+    background: #F6F6F6;
+    padding-bottom: 88px;
+    overflow: hidden;
+}
+
+.more-info-3 .title {
+    margin-top: 88px;
+    margin-bottom: 40px;
+}
+
+.more-info-3 .mi3-container {
+    background-color: #fff;
+    margin: 0 15px;
+    min-height: 400px;
+}
+
+.more-info-3 .mi3-container img {
+    margin-top: 84px;
+    text-align: center;
+    width: 98px;
+    margin-bottom: 40px;
+    height: 100px;
+}
+
+.more-info-3 .mi3-container .mi3-content {
+    padding: 0 40px;
+    font-size: 18px;
+    color: #222222;
+    text-align: left;
+    line-height: normal;
+}
+
+@media screen and (max-width: 1600px) {
+    .c-container .title {
+        font-size: 48px;
+    }
+
+    .c-container .content {
+        font-size: 16px; 
+    }
+}
+
+@media screen and (max-width: 1336px) {
+    .c-container .title {
+        font-size: 32px; 
+    }
+
+    .c-container .content {
+        font-size: 15px; 
+        color: #3D3D3D;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .c-container {
+        margin-top: 40px;
+    }
+
+    .c-container .title {
+        margin-bottom: 20px;
+        font-size: 28px; 
+    }
+
+    .c-container .content {
+        font-size: 10px; 
+        color: #3D3D3D;
+        margin-bottom: 30px;
+    }
+
+    .container .more-info {
+        padding: 40px 0;
+    }
+
+    .container .more-info .title {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .more-info .more-info-item {
+        width: 100%;
+        padding: 5px 10px 50px 10px;
+    }
+
+    .more-info-item .more-info-icon {
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+    .more-info-item .more-info-title {
+        font-size: 18px;
+    }
+
+    .more-info-item .more-info-container {
+        font-size: 14px;
+    }
+
+    .c-container .title2 {
+        font-size: 24px;
+    }
+
+    .more-info-2 .mi2-number {
+        font-size: 50px;
+        line-height: 1;
+    }
+
+    .more-info-2 .mi2-container {
+        padding: 70px 40px 0;
+        min-height: 400px;
+    }
+
+    .more-info-2 .mi2-title {
+        font-size: 48px;
+    }
+
+    .more-info-2 .mi2-content {
+        font-size: 24px;
+    }
+
+    .more-info-3 .mi3-container {
+        margin-bottom: 20px;
+    }
+
+    .more-info-3 .mi3-container .mi3-content {
+        font-size: 16px;
+    }
+
+    .more-info-2 .col-md-4:nth-child(1), .more-info-2 .col-md-4:nth-child(2) {
+        border-right: none;
+    }
+}

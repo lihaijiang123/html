@@ -1,0 +1,159 @@
+body, button, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'D-DIN';
+    src: url('../D-DIN-PRO-500-Medium.otf');
+}
+
+.navbar {
+    height: 70px;
+    background-color: #ffffff;
+}
+
+.navbar-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.navbar-fixed-top {
+    border-width: 0;
+}
+
+.nav>li>a {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #222222;
+    border-bottom: 0px solid #089C4B;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    transition: all 0.1s;
+}
+
+.navbar-inverse .navbar-toggle {
+    margin-top: 17px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #fff;
+}
+
+.navbar_hover {
+    border-bottom: 5px solid #089C4B!important;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #222222;
+    border-bottom: 5px solid #089C4B;
+}
+
+.nav>li>a {
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav>li>a {
+        padding: 0;
+        line-height: 70px;
+        height: 70px;
+    }
+}
+
+
+@media (max-width: 1032px) {
+    .navbar .operate {
+        display: none;
+    }
+}
+
+.navbar .operate {
+    height: 70px;
+    float: right;
+}
+
+.operate .call {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+.operate .tel {
+    float: left;
+    font-size: 24px;
+    font-family: 'D-DIN';
+    line-height: 69px;
+    width: 170px;
+    overflow: hidden;
+}
+
+.operate .get-price {
+    color: #222222;
+    float: left;
+    width: 123px;
+    height: 42px;
+    margin: 14px 20px;
+    background: linear-gradient(270deg, #089C4B 0%, #0ABE5B 100%);
+}
+
+.operate .get-price a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-logo {
+    float: left;
+    padding: 10px 30px 18px;
+    height: 70px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.nav-logo a {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1440px;
+    }
+}
+
+.navbar-collapse {
+    background-color: #fff;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #ccc;
+}
+
+.center-1440 {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
